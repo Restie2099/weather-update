@@ -1,0 +1,45 @@
+body {
+  font-family: 'Merriweather', serif;
+  letter-spacing: 1px;
+  background-color: lightgray;
+  margin: 0;
+  padding: 0 25vw;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.coordinates {
+  margin-top: 0;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.weather-container {
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+#temperature {
+  font-size: xx-large;
+}
+
+.temperature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.weather-desc-container {
+  width: 50%;
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
